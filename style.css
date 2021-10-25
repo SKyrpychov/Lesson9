@@ -66,5 +66,289 @@ body {
     color: #333333;
     text-decoration: none;
     display: block;
+}
+.delete-menu__margin.menu__point{
+    margin: 0;
+}
+.head-block {
+    background-color: #ffffff;
+}
+.head-block__logo-group {
+    display: block;
+    float: left;
+}
+.head-block__logo-image {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 20px 20px 0;
+    
+}
+.head-block__logo-text {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    vertical-align: top;
+    margin-top:  41px;
+    margin-bottom: 40px;
+    color: #F13C6E;
+    text-transform: uppercase;
+}
+.head-block__information {
+    display: block;
+    float: right;
+}
+.head-block__about {
+    display: inline-block;
+    vertical-align: top;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000; 
+    text-decoration: none;
+    margin: 50px 40px 51px 0;
+}
+.head-block__callback {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding: 12px 26px 13px 27px;
+    margin: 40px 0;
+    cursor: pointer;
+}
+.head-block__callback:hover {
+background-color: blanchedalmond;
+}
+.clearfix {
+    clear: both;
+}
+.line {
+    border: 1px solid #EFEFEF;
+}
+.primary__list {
+    font-size: 0;
+    text-align: center;
+    padding: 30px 0;
+}
+.primary__list-item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 30px;
+}
+.delete-menu__margin.primary__list-item {
+    margin-right: 0;
+}
+.primary__list-link {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+.promo-block {
+    background-image: url(images/promo_background_image.png);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    padding: 192px 0 193px ;
+}
+.promo-block__title {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.promo-block__text {
+    width: 308px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.promo-block__info {
+    font-family: 'Roboto', sans-serif; /*Сейчас это ссылка, а вдруг станет кнопкой*/
+    display: inline-block;
+    vertical-align: top;
+    background-color: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 12px 26px 13px 27px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.promo-block__info:hover {
+    background-color: coral;
+}
+.producte {
+    background-color: #E5E5E5;
+    padding: 80px 0 81px;
+}
+.producte__block {
+    font-size: 0;
+}
+.producte__block-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 38px;
+}
+.product__card {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFFFFF;
+    max-width: 255px;
+    margin-right: 30px;
+}
+.product__card-img {
+    display: block;
+    margin: 25px auto 20px;
+    max-width: 125px;
+}
+.product__card-description {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    width: 195px;
+    display: block;
+    margin: 0 30px 20px;
+}
+.product__card-price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.product__card-purchase {
+    font-family: 'Roboto', sans-serif; /*Сейчас это ссылка, а вдруг станет кнопкой*/
+    display: inline-block;
+    vertical-align: top;
+    background: #F13C6E;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 9px 40px;
+    margin: 20px 63px 25px 62px;
+}
+.delete-menu__margin.product__card {
+    margin-right: 0;
+}
+.product__card-purchase:hover {
+    background-color: coral;
+}
+.subscr__banner {
+    display: inline-block;
+    vertical-align: top;
+    background: #F13C6E;
+    max-width: 540px;
+    margin: 100px 0;
+}
+.subscr__banner-container {
+    float: left;
+    margin: 35px 0 35px 40px;
+    max-width: 250px;
+}
+.subscr-banner__image-box {
+    float: right;
+    padding-bottom: 7px;
+    margin: 36px 45px 36px 65px;
+}
+.subscr__banner-title {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.subscr__banner-text {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    max-width: 231px;
+    margin: 25px 0;
 
+}
+.subscr__banner-mail {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 30px;    
+    font-size: 14px;
+    line-height: 16px;
+    padding: 9px 27px;
+    max-width: 250px;
+}
+.subscr__banner-mail::placeholder {
+    color: #C4C4C4;
+    font-size: 14px;
+    line-height: 16px;  
+}
+.subscr-banner__image {
+    display: block;
+}
+.subscr-banner__image-wrapper{
+    float: right;
+    margin: 56px 45px 56px 16px;
+}
+.subscr-banner__img {
+    display: block;
+}
+.subscr__banner-link {
+    font-family: 'Roboto', sans-serif; /*Сейчас это ссылка, а вдруг станет кнопкой*/
+    display: inline-block;
+    vertical-align: top;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 9px 29px;
+}
+.subscr__banner-link:hover {
+    background-color: coral;
+}
+.product__logo-block {
+    display: inline-block;
+	vertical-align: top;
+	max-width: 277px;
+	border: none;
+	background-color: #FFFFFF;
+}
+.product__logo-link {
+    display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+}
+.product__logo-img {
+    display: block;
+    margin: 35px 64px;
+}
+.product__logo-line {
+    border: 1px solid #EFEFEF;
+    margin: 0;
 }
