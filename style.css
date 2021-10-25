@@ -332,6 +332,10 @@ background-color: blanchedalmond;
 .subscr__banner-link:hover {
     background-color: coral;
 }
+.product__logo {
+    font-size: 0;
+    margin-bottom: 80px;
+}
 .product__logo-block {
     display: inline-block;
 	vertical-align: top;
@@ -351,4 +355,7 @@ background-color: blanchedalmond;
 .product__logo-line {
     border: 1px solid #EFEFEF;
     margin: 0;
+}
+.product__logo-block.product__logo-border {
+    border: 1px solid #EFEFEF;
 }
